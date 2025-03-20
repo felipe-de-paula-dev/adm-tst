@@ -68,11 +68,11 @@ export function Login() {
             </h1>
           </li>
           <li>
-            <h1 className="text-red-600 text-5xl font-Mulish font-semibold">
+            <h1 className="text-red-700 text-5xl font-Mulish font-semibold">
               It
             </h1>
           </li>
-          <Search className="text-red-600 ml-1" strokeWidth={3} size={32} />
+          <Search className="text-red-700 ml-1" strokeWidth={3} size={32} />
         </ul>
         <div className="bg-white shadow rouded-[10px] flex items-center justify-center flex-col w-[400px] h-[350px] pt-4 pb-2">
           <h1 className="self-start ml-6 text-xl font-medium">
@@ -101,7 +101,7 @@ export function Login() {
               type="button"
               value="Login"
               onClick={goToDashboard}
-              className="p-2 w-[350px] shadow mt-6 bg-red-600 text-white font-medium rounded-[5px] hover:cursor-pointer"
+              className="p-2 w-[350px] shadow mt-6 bg-red-700 text-white font-medium rounded-[5px] hover:cursor-pointer"
             />
           </form>
         </div>
